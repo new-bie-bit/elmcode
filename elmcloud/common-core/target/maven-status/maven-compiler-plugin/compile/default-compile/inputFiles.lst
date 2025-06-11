@@ -1,0 +1,16 @@
+C:\Users\pc\Desktop\elmcode\elmcloud\common-core\src\main\java\com\neusoft\elmcloud\common\core\constant\CommonConstant.java
+C:\Users\pc\Desktop\elmcode\elmcloud\common-core\src\main\java\com\neusoft\elmcloud\common\core\domain\SexEnum.java
+C:\Users\pc\Desktop\elmcode\elmcloud\common-core\src\main\java\com\neusoft\elmcloud\common\core\constant\AuthConstants.java
+C:\Users\pc\Desktop\elmcode\elmcloud\common-core\src\main\java\com\neusoft\elmcloud\common\core\domain\AbstractSpecification.java
+C:\Users\pc\Desktop\elmcode\elmcloud\common-core\src\main\java\com\neusoft\elmcloud\common\core\util\HttpContextUtils.java
+C:\Users\pc\Desktop\elmcode\elmcloud\common-core\src\main\java\com\neusoft\elmcloud\common\core\domain\DelTagEnum.java
+C:\Users\pc\Desktop\elmcode\elmcloud\common-core\src\main\java\com\neusoft\elmcloud\common\core\domain\NotSpecification.java
+C:\Users\pc\Desktop\elmcode\elmcloud\common-core\src\main\java\com\neusoft\elmcloud\common\core\util\DateUtil.java
+C:\Users\pc\Desktop\elmcode\elmcloud\common-core\src\main\java\com\neusoft\elmcloud\common\core\util\IPUtils.java
+C:\Users\pc\Desktop\elmcode\elmcloud\common-core\src\main\java\com\neusoft\elmcloud\common\core\domain\AndSpecification.java
+C:\Users\pc\Desktop\elmcode\elmcloud\common-core\src\main\java\com\neusoft\elmcloud\common\core\domain\Entity.java
+C:\Users\pc\Desktop\elmcode\elmcloud\common-core\src\main\java\com\neusoft\elmcloud\common\core\exception\BaseException.java
+C:\Users\pc\Desktop\elmcode\elmcloud\common-core\src\main\java\com\neusoft\elmcloud\common\core\domain\OrSpecification.java
+C:\Users\pc\Desktop\elmcode\elmcloud\common-core\src\main\java\com\neusoft\elmcloud\common\core\domain\Specification.java
+C:\Users\pc\Desktop\elmcode\elmcloud\common-core\src\main\java\com\neusoft\elmcloud\common\core\domain\ValueObject.java
+C:\Users\pc\Desktop\elmcode\elmcloud\common-core\src\main\java\com\neusoft\elmcloud\common\core\domain\Aggregate.java

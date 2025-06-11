@@ -1,0 +1,110 @@
+version: '3'
+services:
+  eureka-server13000:
+    container_name: eureka-server13000
+    build:
+      context: ./elmcloud/eureka-server13000
+      dockerfile: Dockerfile
+    ports:
+      - "13000:13000"
+    networks:
+      - mynetwork
+  eureka-server13001:
+    container_name: eureka-server13001
+    build:
+      context: ./elmcloud/eureka-server13001
+      dockerfile: Dockerfile
+    ports:
+      - "13001:13001"
+    networks:
+      - mynetwork
+
+  config-server15000:
+    container_name: config-server15000
+    build:
+      context: ./elmcloud/config-server15000
+      dockerfile: Dockerfile
+    ports:
+      - "15000:15000"
+    networks:
+      - mynetwork
+    depends_on:
+      - eureka-server13000
+      - eureka-server13001
+
+  config-server15001:
+    container_name: config-server15001
+    build:
+      context: ./elmcloud/config-server15001
+      dockerfile: Dockerfile
+    ports:
+      - "15001:15001"
+    networks:
+      - mynetwork
+    depends_on:
+      - eureka-server13000
+      - eureka-server13001
+
+  business-provider-server11000:
+    container_name: business-provider-server11000
+    build:
+      context: ./elmcloud/business-provider-server11000
+      dockerfile: Dockerfile
+    ports:
+      - "11000:11000"
+    networks:
+      - mynetwork
+    depends_on:
+      - config-server15000
+      - config-server15001
+
+  business-provider-server11001:
+    container_name: business-provider-server11001
+    build:
+      context: ./elmcloud/business-provider-server11001
+      dockerfile: Dockerfile
+    ports:
+      - "11001:11001"
+    networks:
+      - mynetwork
+    depends_on:
+      - config-server15000
+      - config-server15001
+
+  business-consumer-server12000:
+    container_name: business-consumer-server12000
+    build:
+      context: ./elmcloud/business-consumer-server12000
+      dockerfile: Dockerfile
+    ports:
+      - "12000:12000"
+    networks:
+      - mynetwork
+    depends_on:
+      - config-server15000
+      - config-server15001
+
+  business-consumer-server12001:
+    container_name: business-consumer-server12001
+    build:
+      context: ./elmcloud/business-consumer-server12001
+      dockerfile: Dockerfile
+    ports:
+      - "12001:12001"
+    networks:
+      - mynetwork
+    depends_on:
+      - config-server15000
+      - config-server15001
+  gateway-server14000:
+    container_name: gateway-server14000
+    build:
+      context: ./elmcloud/gateway-server14000
+      dockerfile: Dockerfile
+    ports:
+      - "14000:14000"
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:

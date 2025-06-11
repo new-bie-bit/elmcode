@@ -1,0 +1,47 @@
+erueka:
+  instance:
+    lease-expiration-duration-in-seconds: 30
+    lease-renewal-interal-in-seconds: 5
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:13001/eureka/,http://localhost:13000/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+resilience4j:
+  circuitbreaker:
+    configs:
+      default:
+        automatic-transition-from-open-to-half-open-enabled: true
+        failure-rate-threshold: 30
+        minimum-number-of-calls: 2
+        sliding-window-size: 10
+        sliding-window-type: TIME_BASED
+        wait-duration-in-open-state: 2s
+      ignore-exception:
+        - java.lang.Exception
+      permitted-number-of-calls-in-half-open-state: 3
+    instances:
+      backendA:
+        base-config: default
+spring:
+  application:
+    name: gateway-server
+  cloud:
+    gateway:
+      routes:
+        - id: consumer_router
+          uri: lb://business-consumer-server
+          predicates:
+            - Path=/api-elm/**
+          filters:
+            - StripPrefix=1
+  rabbitmq:
+    host: localhost
+    password: guest
+    port: 5672
+    username: guest
+    virtual-host: /

@@ -1,0 +1,16 @@
+com\neusoft\elmcloud\common\core\domain\AbstractSpecification.class
+com\neusoft\elmcloud\common\core\constant\AuthConstants.class
+com\neusoft\elmcloud\common\core\util\IPUtils.class
+com\neusoft\elmcloud\common\core\domain\Entity.class
+com\neusoft\elmcloud\common\core\domain\DelTagEnum.class
+com\neusoft\elmcloud\common\core\util\DateUtil.class
+com\neusoft\elmcloud\common\core\domain\SexEnum.class
+com\neusoft\elmcloud\common\core\util\HttpContextUtils.class
+com\neusoft\elmcloud\common\core\exception\BaseException.class
+com\neusoft\elmcloud\common\core\constant\CommonConstant.class
+com\neusoft\elmcloud\common\core\domain\Aggregate.class
+com\neusoft\elmcloud\common\core\domain\NotSpecification.class
+com\neusoft\elmcloud\common\core\domain\ValueObject.class
+com\neusoft\elmcloud\common\core\domain\Specification.class
+com\neusoft\elmcloud\common\core\domain\AndSpecification.class
+com\neusoft\elmcloud\common\core\domain\OrSpecification.class

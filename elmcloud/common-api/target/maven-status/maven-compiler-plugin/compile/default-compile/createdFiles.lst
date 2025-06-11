@@ -1,0 +1,6 @@
+com\neusoft\elmcloud\commonapi\entity\BasePageBean.class
+com\neusoft\elmcloud\commonapi\entity\PageResult.class
+com\neusoft\elmcloud\commonapi\entity\SimpleKey.class
+com\neusoft\elmcloud\commonapi\enums\ResultEnum.class
+com\neusoft\elmcloud\commonapi\entity\ResponseResult$ResponseResultBuilder.class
+com\neusoft\elmcloud\commonapi\entity\ResponseResult.class
