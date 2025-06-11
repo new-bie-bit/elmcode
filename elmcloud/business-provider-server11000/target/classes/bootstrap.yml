@@ -1,0 +1,18 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server13001:13001/eureka/,http://eureka-server13000:13000/eureka
+server:
+  port: 11000
+
+spring:
+  application:
+    name: business-provider-server
+  cloud:
+    config:
+      uri: http://config-server15000:15000,http://config-server15001:15001
+      profile: dev
+      label: master
+      discovery:
+        enabled: true
+        service-id: config-server

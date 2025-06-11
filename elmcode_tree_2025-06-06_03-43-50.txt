@@ -1,0 +1,251 @@
+elmcode/
+├── elmclient/
+│   ├── public/
+│   │   ├── favicon.ico
+│   │   └── index.html
+│   ├── src/
+│   │   ├── assets/
+│   │   │   ├── alipay.png
+│   │   │   ├── dcfl01.png
+│   │   │   ├── dcfl02.png
+│   │   │   ├── dcfl03.png
+│   │   │   ├── dcfl04.png
+│   │   │   ├── dcfl05.png
+│   │   │   ├── dcfl06.png
+│   │   │   ├── dcfl07.png
+│   │   │   ├── dcfl08.png
+│   │   │   ├── dcfl09.png
+│   │   │   ├── dcfl10.png
+│   │   │   ├── index_banner.png
+│   │   │   ├── logo.png
+│   │   │   ├── readme.txt
+│   │   │   ├── sj01.png
+│   │   │   ├── sj02.png
+│   │   │   ├── sj03.png
+│   │   │   ├── sj04.png
+│   │   │   ├── sj05.png
+│   │   │   ├── sj06.png
+│   │   │   ├── sj07.png
+│   │   │   ├── sj08.png
+│   │   │   ├── sj09.png
+│   │   │   ├── sp01.png
+│   │   │   ├── sp02.png
+│   │   │   ├── sp03.png
+│   │   │   ├── sp04.png
+│   │   │   ├── sp05.png
+│   │   │   ├── sp06.png
+│   │   │   ├── sp07.png
+│   │   │   ├── sp08.png
+│   │   │   ├── sp09.png
+│   │   │   ├── sp10.png
+│   │   │   ├── sp11.png
+│   │   │   ├── sp12.png
+│   │   │   ├── super_member.png
+│   │   │   └── wechat.png
+│   │   ├── components/
+│   │   │   └── Footer.vue
+│   │   ├── router/
+│   │   │   └── index.js
+│   │   ├── views/
+│   │   │   ├── AddUserAddress.vue
+│   │   │   ├── BusinessInfo.vue
+│   │   │   ├── BusinessList.vue
+│   │   │   ├── EditUserAddress.vue
+│   │   │   ├── Error.vue
+│   │   │   ├── Index.vue
+│   │   │   ├── Login.vue
+│   │   │   ├── OrderList.vue
+│   │   │   ├── Orders.vue
+│   │   │   ├── Payment.vue
+│   │   │   ├── Register.vue
+│   │   │   ├── UserAddress.vue
+│   │   │   └── Warn.vue
+│   │   ├── App.vue
+│   │   ├── common.js
+│   │   └── main.js
+│   ├── babel.config.js
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── README.md
+│   └── vue.config.js
+├── elmcloud/
+│   ├── business-api/
+│   │   ├── src/
+│   │   │   └── main/
+│   │   │       └── java/
+│   │   │           └── com/
+│   │   │               └── neusoft/
+│   │   │                   └── elmcloud/
+│   │   │                       └── po/
+│   │   └── pom.xml
+│   ├── business-consumer-server12000/
+│   │   ├── src/
+│   │   │   └── main/
+│   │   │       ├── java/
+│   │   │       │   └── com/
+│   │   │       │       └── neusoft/
+│   │   │       │           └── elmcloud/
+│   │   │       │               ├── config/
+│   │   │       │               ├── controller/
+│   │   │       │               ├── service/
+│   │   │       │               └── ElmCloudConsumerApplication12000.java
+│   │   │       └── resources/
+│   │   │           ├── bootstrap.yml
+│   │   │           └── business-consumer-server-dev.yml
+│   │   ├── business-consumer-server12000.iml
+│   │   ├── pom.xml
+│   │   └── product-service.iml
+│   ├── business-consumer-server12001/
+│   │   ├── src/
+│   │   │   └── main/
+│   │   │       ├── java/
+│   │   │       │   └── com/
+│   │   │       │       └── neusoft/
+│   │   │       │           └── elmcloud/
+│   │   │       │               ├── config/
+│   │   │       │               ├── controller/
+│   │   │       │               ├── service/
+│   │   │       │               └── ElmCloudConsumerApplication12001.java
+│   │   │       └── resources/
+│   │   │           └── bootstrap.yml
+│   │   ├── business-consumer-server12001.iml
+│   │   └── pom.xml
+│   ├── business-provider-server11000/
+│   │   ├── src/
+│   │   │   └── main/
+│   │   │       ├── java/
+│   │   │       │   └── com/
+│   │   │       │       └── neusoft/
+│   │   │       │           └── elmcloud/
+│   │   │       │               ├── api/
+│   │   │       │               ├── application/
+│   │   │       │               ├── domain/
+│   │   │       │               ├── infrastructure/
+│   │   │       │               └── ElmCloudProviderApplication11000.java
+│   │   │       └── resources/
+│   │   │           ├── mapper/
+│   │   │           │   ├── CartMapper.xml
+│   │   │           │   ├── OrderDetailetMapper.xml
+│   │   │           │   └── OrdersMapper.xml
+│   │   │           ├── bootstrap.yml
+│   │   │           └── business-provider-server-dev.yml
+│   │   ├── business-provider-server11000.iml
+│   │   └── pom.xml
+│   ├── business-provider-server11001/
+│   │   ├── src/
+│   │   │   └── main/
+│   │   │       ├── java/
+│   │   │       │   └── com/
+│   │   │       │       └── neusoft/
+│   │   │       │           └── elmcloud/
+│   │   │       │               ├── api/
+│   │   │       │               ├── application/
+│   │   │       │               ├── domain/
+│   │   │       │               ├── infrastructure/
+│   │   │       │               └── ElmCloudProviderApplication11001.java
+│   │   │       └── resources/
+│   │   │           ├── mapper/
+│   │   │           │   ├── CartMapper.xml
+│   │   │           │   ├── OrderDetailetMapper.xml
+│   │   │           │   └── OrdersMapper.xml
+│   │   │           ├── bootstrap.yml
+│   │   │           └── business-provider-server-dev.yml
+│   │   ├── business-provider-server11001.iml
+│   │   └── pom.xml
+│   ├── common-api/
+│   │   ├── src/
+│   │   │   └── main/
+│   │   │       └── java/
+│   │   │           └── com/
+│   │   │               └── neusoft/
+│   │   │                   ├── commonapi/
+│   │   │                   └── elmcloud/
+│   │   │                       └── commonapi/
+│   │   └── pom.xml
+│   ├── common-core/
+│   │   ├── src/
+│   │   │   └── main/
+│   │   │       └── java/
+│   │   │           └── com/
+│   │   │               └── neusoft/
+│   │   │                   └── elmcloud/
+│   │   │                       └── common/
+│   │   ├── common-core.iml
+│   │   └── pom.xml
+│   ├── config-server15000/
+│   │   ├── src/
+│   │   │   ├── main/
+│   │   │   │   ├── java/
+│   │   │   │   │   └── com/
+│   │   │   │   │       └── neusoft/
+│   │   │   │   │           └── elmcloud/
+│   │   │   │   │               └── ConfigApplication15000.java
+│   │   │   │   └── resources/
+│   │   │   │       └── application.yml
+│   │   │   └── test/
+│   │   │       └── java/
+│   │   ├── config-server15000.iml
+│   │   └── pom.xml
+│   ├── config-server15001/
+│   │   ├── src/
+│   │   │   ├── main/
+│   │   │   │   ├── java/
+│   │   │   │   │   └── com/
+│   │   │   │   │       └── neusoft/
+│   │   │   │   │           └── elmcloud/
+│   │   │   │   │               └── ConfigApplication15001.java
+│   │   │   │   └── resources/
+│   │   │   │       └── application.yml
+│   │   │   └── test/
+│   │   │       └── java/
+│   │   ├── config-server15001.iml
+│   │   └── pom.xml
+│   ├── eureka-server13000/
+│   │   ├── src/
+│   │   │   ├── main/
+│   │   │   │   ├── java/
+│   │   │   │   │   └── com/
+│   │   │   │   │       └── neusoft/
+│   │   │   │   │           └── elmcloud/
+│   │   │   │   │               └── EurekaApplication13000.java
+│   │   │   │   └── resources/
+│   │   │   │       └── application.yml
+│   │   │   └── test/
+│   │   │       └── java/
+│   │   ├── eureka-server13000.iml
+│   │   └── pom.xml
+│   ├── eureka-server13001/
+│   │   ├── src/
+│   │   │   ├── main/
+│   │   │   │   ├── java/
+│   │   │   │   │   └── com/
+│   │   │   │   │       └── neusoft/
+│   │   │   │   │           └── elmcloud/
+│   │   │   │   │               └── EurekaApplication13001.java
+│   │   │   │   └── resources/
+│   │   │   │       └── application.yml
+│   │   │   └── test/
+│   │   ├── eureka-server13001.iml
+│   │   └── pom.xml
+│   ├── gateway-server14000/
+│   │   ├── src/
+│   │   │   ├── main/
+│   │   │   │   ├── java/
+│   │   │   │   │   └── com/
+│   │   │   │   │       └── neusoft/
+│   │   │   │   │           └── elmcloud/
+│   │   │   │   │               ├── controller/
+│   │   │   │   │               └── GatewayApplication14000.java
+│   │   │   │   └── resources/
+│   │   │   │       ├── bootstrap.yml
+│   │   │   │       └── gateway-server-dev.yml
+│   │   │   └── test/
+│   │   │       └── java/
+│   │   ├── gateway-server14000.iml
+│   │   └── pom.xml
+│   ├── elmcloud_tree_2025-06-06_03-43-36.txt
+│   └── pom.xml
+├── elm.sql
+├── package-lock.json
+├── package.json
+└── start.sh

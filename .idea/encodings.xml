@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.3.2.RELEASE/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elmcloud/business-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elmcloud/business-consumer-server12000/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elmcloud/business-consumer-server12001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elmcloud/business-provider-server11000/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elmcloud/business-provider-server11001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elmcloud/common-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elmcloud/common-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elmcloud/config-server15000/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elmcloud/config-server15001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elmcloud/eureka-server13000/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elmcloud/eureka-server13001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elmcloud/gateway-server14000/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elmcloud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elmcloud/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

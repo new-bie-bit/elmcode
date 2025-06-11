@@ -1,0 +1,20 @@
+server:
+  port: 12000
+
+spring:
+  application:
+    name: business-consumer-server
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    config:
+      uri: http://config-server15000:15000,http://config-server15001:15001
+      profile: dev
+      label: master
+      discovery:
+        enabled: true
+        service-id: config-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server13001:13001/eureka/,http://eureka-server13000:13000/eureka

@@ -1,0 +1,17 @@
+server:
+  port: 13001
+
+eureka:
+  instance:
+    hostname: eurekaServer13001
+  client:
+    service-url:
+      defaultZone: http://eureka-server13001:13001/eureka/,http://eureka-server13000:13000/eureka/
+    register-with-eureka: false
+    fetch-registry: false
+  server:
+    enable-self-preservation: false
+
+spring:
+  freemarker:
+    prefer-file-system-access: false

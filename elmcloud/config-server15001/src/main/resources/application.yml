@@ -1,0 +1,31 @@
+eureka:
+  instance:
+    lease-expiration-duration-in-seconds: 30
+    lease-renewal-interal-in-seconds: 5
+  client:
+    service-url:
+      defaultZone: http://eureka-server13001:13001/eureka/,http://eureka-server13000:13000/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+server:
+  port: 15001
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          default-lable: master
+          password: andyee135249
+          uri: https://gitee.com/AAndyee/elm-config-server.git
+          username: AAndyee
+  rabbitmq:
+    host: rabbitmq  # 容器名或 IP，确保能 ping 通
+    password: sunnada.hzt123
+    port: 5672
+    username: monitorjob
+    virtual-host: /monitorjob

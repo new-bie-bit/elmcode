@@ -1,0 +1,94 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ElmCloudConsumerApplication12000<business-consumer-server12000>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.neusoft.elmcloud.ElmCloudConsumerApplication12000",
+            "projectName": "business-consumer-server12000",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ElmCloudConsumerApplication12001<business-consumer-server12001>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.neusoft.elmcloud.ElmCloudConsumerApplication12001",
+            "projectName": "business-consumer-server12001",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ElmCloudProviderApplication11000<business-provider-server11000>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.neusoft.elmcloud.ElmCloudProviderApplication11000",
+            "projectName": "business-provider-server11000",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ElmCloudProviderApplication11001<business-provider-server11001>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.neusoft.elmcloud.ElmCloudProviderApplication11001",
+            "projectName": "business-provider-server11001",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ConfigApplication15000<config-server15000>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.neusoft.elmcloud.ConfigApplication15000",
+            "projectName": "config-server15000",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ConfigApplication15001<config-server15001>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.neusoft.elmcloud.ConfigApplication15001",
+            "projectName": "config-server15001",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaApplication13000<eureka-server13000>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.neusoft.elmcloud.EurekaApplication13000",
+            "projectName": "eureka-server13000",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaApplication13001<eureka-server13001>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.neusoft.elmcloud.EurekaApplication13001",
+            "projectName": "eureka-server13001",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GatewayApplication14000<gateway-server14000>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.neusoft.elmcloud.GatewayApplication14000",
+            "projectName": "gateway-server14000",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

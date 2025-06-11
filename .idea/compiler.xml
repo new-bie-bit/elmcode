@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-api" />
+        <module name="eureka-server13001" />
+        <module name="business-consumer-server12001" />
+        <module name="business-consumer-server12000" />
+        <module name="config-server15001" />
+        <module name="config-server15000" />
+        <module name="business-api" />
+        <module name="gateway-server14000" />
+        <module name="eureka-server13000" />
+        <module name="business-provider-server11000" />
+        <module name="business-provider-server11001" />
+        <module name="common-core" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="business-api" options="-parameters" />
+      <module name="business-consumer-server12000" options="-parameters" />
+      <module name="business-consumer-server12001" options="-parameters" />
+      <module name="business-provider-server11000" options="-parameters" />
+      <module name="business-provider-server11001" options="-parameters" />
+      <module name="common-api" options="-parameters" />
+      <module name="common-core" options="-parameters" />
+      <module name="config-server15000" options="-parameters" />
+      <module name="config-server15001" options="-parameters" />
+      <module name="elmcloud" options="-parameters" />
+      <module name="eureka-server13000" options="-parameters" />
+      <module name="eureka-server13001" options="-parameters" />
+      <module name="gateway-server14000" options="-parameters" />
+    </option>
+  </component>
+</project>

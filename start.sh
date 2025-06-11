@@ -1,0 +1,31 @@
+#!/bin/bash
+set -e
+
+# 启动 cloud-eureka-server 微服务
+echo "🔹 Starting cloud-eureka-server..."
+java -jar /workspaces/elmcode/elmcloud/eureka-server13000/target/*.jar &
+java -jar /workspaces/elmcode/elmcloud/eureka-server13001/target/*.jar &
+
+# 启动 cloud-config-server 微服务
+echo "🔹 Starting config-server..."
+java -jar /workspaces/elmcode/elmcloud/config-server15000/target/*.jar &
+java -jar /workspaces/elmcode/elmcloud/config-server15001/target/*.jar &
+
+# 启动 cloud-provider-server 微服务
+echo "🔹 Starting cloud-provider-server..."
+java -jar /workspaces/elmcode/elmcloud/business-provider-server11000/target/*.jar &
+java -jar /workspaces/elmcode/elmcloud/business-provider-server11001/target/*.jar &
+
+# 启动 cloud-consumer-server 微服务
+echo "🔹 Starting cloud-consumer-server..."
+java -jar /workspaces/elmcode/elmcloud/business-consumer-server12000/target/*.jar &
+java -jar /workspaces/elmcode/elmcloud/business-consumer-server12001/target/*.jar &
+
+# 启动 cloud-gateway 微服务
+echo "🔹 Starting cloud-gateway..."
+java -jar /workspaces/elmcode/elmcloud/gateway-server14000/target/*.jar &
+
+# 启动前端项目
+# echo "🔹 Starting frontend..."
+# cd /workspaces/elmcode/elmclient
+# npm run serve &
