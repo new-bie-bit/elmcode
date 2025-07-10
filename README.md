@@ -42,20 +42,20 @@
 ## 📸 功能展示
 
 ### 1. 首页与商品列表
-![首页与商品列表](https://github.com/new-bie-bit/elmcode/blob/main/image/%E5%9B%BE%E7%89%871.png)
-*（此处可插入一张系统首页或商品列表的截图）*
+![首页与商品列表](https://github.com/new-bie-bit/elmcode/blob/main/image/%E5%9B%BE%E7%89%871.png =400x300)
+
 
 ### 2. 购物车功能
 ![购物车功能](https://github.com/new-bie-bit/elmcode/blob/main/image/%E5%9B%BE%E7%89%872.png)
-*（此处可插入一张购物车界面的截图）*
+
 
 ### 3. 下单与支付流程
 ![下单与支付流程](https://github.com/new-bie-bit/elmcode/blob/main/image/%E5%9B%BE%E7%89%873.png)
-*（此处可插入一张下单或支付确认页面的截图）*
+
 
 ### 4. 地址管理
 ![地址管理](https://github.com/new-bie-bit/elmcode/blob/main/image/%E5%9B%BE%E7%89%874.png)
-*（此处可插入一张地址管理界面的截图）*
+
 
 ### 5. 微服务架构图
 [![微服务架构图](https://mermaid.ink/img/pako:eNp9ku1r00AAxv-V4z63Lk3WrA1j0PcKU6YDP5j0w625tsG8lEtuW1cKgkymWF8Q90EFmZ8EMQoT7Qat_0yTzv_Cu2YxmQzv0z33_O55LpcbwrajY6hAze6Yzl67h4gHNu9qNmDDpTtdgvo9EDwZLz5_jRb5KKn3KJZA4H8Mj34yB2DTapsGtr1WBGFb1-x_QhbTV8Hh6XzyPDz9FDx-Np98CX49SjLLamnr5iUEGsjDe2iwvkM2cquCILQSrqLWKMEPEEjHLEEpAa_r_304Xkx91h98OF-cPLzwZ-HxNMmtqjHAA0HFsTtGF2xjsovJMj5_9RwN9TZqO-5KmborzYHrEWP_P-Xzydvg6Ukw88P3YzZJYmpqZIU_ji6-n4XHZ7yLlbvUwgTkxKul9Zh-8XI-e3dJbxFn19A5nbv2BprqrcH2nU0QvvkWjv3g_HUrdkpgPZvdAOVIlSNViRUXtbSoR6IWcX8VF9VI1NMicpppp5l2GmmnATOwSwwdKh6hOAPZ11uISzjkmAa9HrawBhU21XEHUdPT2KMdsW19ZN93HCveSRza7cWC9nX2lKoGYr8hIdjlYFJxqO1BJS8VlxFQGcJ9qGSFGwIfoijLUrEoylIhtyaKgpSBg8RdFQoyBwpyviitCbI8ysCD5RlsapqjPwgxKw0?type=png)](https://mermaid-live.nodejs.cn/edit#pako:eNp9ku1r00AAxv-V4z63Lk3WrA1j0PcKU6YDP5j0w625tsG8lEtuW1cKgkymWF8Q90EFmZ8EMQoT7Qat_0yTzv_Cu2YxmQzv0z33_O55LpcbwrajY6hAze6Yzl67h4gHNu9qNmDDpTtdgvo9EDwZLz5_jRb5KKn3KJZA4H8Mj34yB2DTapsGtr1WBGFb1-x_QhbTV8Hh6XzyPDz9FDx-Np98CX49SjLLamnr5iUEGsjDe2iwvkM2cquCILQSrqLWKMEPEEjHLEEpAa_r_304Xkx91h98OF-cPLzwZ-HxNMmtqjHAA0HFsTtGF2xjsovJMj5_9RwN9TZqO-5KmborzYHrEWP_P-Xzydvg6Ukw88P3YzZJYmpqZIU_ji6-n4XHZ7yLlbvUwgTkxKul9Zh-8XI-e3dJbxFn19A5nbv2BprqrcH2nU0QvvkWjv3g_HUrdkpgPZvdAOVIlSNViRUXtbSoR6IWcX8VF9VI1NMicpppp5l2GmmnATOwSwwdKh6hOAPZ11uISzjkmAa9HrawBhU21XEHUdPT2KMdsW19ZN93HCveSRza7cWC9nX2lKoGYr8hIdjlYFJxqO1BJS8VlxFQGcJ9qGSFGwIfoijLUrEoylIhtyaKgpSBg8RdFQoyBwpyviitCbI8ysCD5RlsapqjPwgxKw0)
