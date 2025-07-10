@@ -42,19 +42,19 @@
 ## 📸 功能展示
 
 ### 1. 首页与商品列表
-![首页与商品列表](https://via.placeholder.com/800x450?text=Homepage+and+Product+List)
+![首页与商品列表](https://github.com/new-bie-bit/elmcode/blob/main/image/%E5%9B%BE%E7%89%871.png)
 *（此处可插入一张系统首页或商品列表的截图）*
 
 ### 2. 购物车功能
-![购物车功能](https://via.placeholder.com/800x450?text=Shopping+Cart+Functionality)
+![购物车功能](https://github.com/new-bie-bit/elmcode/blob/main/image/%E5%9B%BE%E7%89%872.png)
 *（此处可插入一张购物车界面的截图）*
 
 ### 3. 下单与支付流程
-![下单与支付流程](https://via.placeholder.com/800x450?text=Order+and+Payment+Process)
+![下单与支付流程](https://github.com/new-bie-bit/elmcode/blob/main/image/%E5%9B%BE%E7%89%873.png)
 *（此处可插入一张下单或支付确认页面的截图）*
 
 ### 4. 地址管理
-![地址管理](https://via.placeholder.com/800x450?text=Address+Management)
+![地址管理](https://github.com/new-bie-bit/elmcode/blob/main/image/%E5%9B%BE%E7%89%874.png)
 *（此处可插入一张地址管理界面的截图）*
 
 ### 5. 微服务架构图
