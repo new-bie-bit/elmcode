@@ -42,16 +42,15 @@
 ## 📸 功能展示
 
 ### 1. 首页与商品列表
-![首页与商品列表](https://github.com/new-bie-bit/elmcode/blob/main/image/%E5%9B%BE%E7%89%871.png =400x300)
+<img src="https://github.com/new-bie-bit/elmcode/blob/main/image/%E5%9B%BE%E7%89%871.png" width="300px">
+
 
 
 ### 2. 购物车功能
-![购物车功能](https://github.com/new-bie-bit/elmcode/blob/main/image/%E5%9B%BE%E7%89%872.png)
-
+<img src="https://github.com/new-bie-bit/elmcode/blob/main/image/%E5%9B%BE%E7%89%872.png" width="300px">
 
 ### 3. 下单与支付流程
-![下单与支付流程](https://github.com/new-bie-bit/elmcode/blob/main/image/%E5%9B%BE%E7%89%873.png)
-
+<img src="https://github.com/new-bie-bit/elmcode/blob/main/image/%E5%9B%BE%E7%89%873.png" width="300px">
 
 ### 4. 地址管理
 ![地址管理](https://github.com/new-bie-bit/elmcode/blob/main/image/%E5%9B%BE%E7%89%874.png)
